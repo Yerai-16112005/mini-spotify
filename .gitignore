@@ -1,16 +1,85 @@
-# Node
-node_modules
-dist
+# Node modules
+node_modules/
+dist/
+build/
 
 # Environment
 .env
-
-# Coverage
-coverage
+.env.*
+!.env.example
 
 # Logs
+logs/
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
 
 # OS
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+.nyc_output
+*.lcov
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# TypeScript cache
+*.tsbuildinfo
+
+# ESLint / Stylelint cache
+.eslintcache
+.stylelintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Parcel / Next / Nuxt / Vite / Gatsby / Vuepress / Sveltekit / Docusaurus
+.cache
+.parcel-cache
+.next
+.nuxt
+.temp
+.svelte-kit/
+.vitepress/dist
+.vitepress/cache
+.vuepress/dist
+.docusaurus
+
+# Serverless
+.serverless/
+
+# Other dependency dirs
+bower_components/
+jspm_packages/
+web_modules/
+
+# Firebase / DynamoDB / Tern
+.firebase/
+.dynamodb/
+.tern-port
+
+# VSCode test folders
+.vscode-test
+
+# Yarn v3
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
